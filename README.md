@@ -55,12 +55,12 @@ sudo ln -s $(pwd)/ad-principals.py /usr/local/bin/ad-principals
 
 To ensure the binary has not been tampered with, verify the SHA256 checksum after downloading:
 
-**Latest Binary Checksum (SHA256):** `CHECKSUM_PLACEHOLDER`
+**Latest Binary Checksum (SHA256):** `060a55e970da9d7cda8ca9fe2aa13407597939f03af974478f0ca0cf3e8a12f1`
 
 ### Verification Command:
 
 ```bash
-echo "CHECKSUM_PLACEHOLDER  ad-principals" | sha256sum -c -
+echo "060a55e970da9d7cda8ca9fe2aa13407597939f03af974478f0ca0cf3e8a12f1  ad-principals" | sha256sum -c -
 
 ```
 
