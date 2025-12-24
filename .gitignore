@@ -1,0 +1,29 @@
+# --- Security/Target Data (CRITICAL) ---
+# Ignore any generated principal lists
+*_principals.txt
+*_uNames.txt
+
+# Ignore input source files containing real names
+*.csv
+*.txt
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
