@@ -1,6 +1,6 @@
 # ad-principals
 
-[![Build and Release](https://github.com/bishwabikash/ad-principals/actions/workflows/release.yml/badge.svg)](https://github.com/bishwabikash/ad-principals/actions/workflows/release.yml)
+[![Build and Release](https://github.com/nobody-Justheader//ad-principals/actions/workflows/release.yml/badge.svg)](https://github.com/nobody-Justheader//ad-principals/actions/workflows/release.yml)
 
 **ad-principals** is a lightweight, standalone Python utility designed for Red Teamers and Security Auditors to generate Active Directory `sAMAccountName` and `UserPrincipalName` (UPN) permutations from raw name lists.
 
@@ -36,7 +36,7 @@ It is specifically optimized for identifying valid domain principals during the 
 
 ### Option 1: Pre-compiled Binary (Recommended)
 
-Download the latest standalone binary from the [**Releases**](https://github.com/bishwabikash/ad-principals/releases) tab:
+Download the latest standalone binary from the [**Releases**](https://github.com/nobody-Justheader//ad-principals/releases) tab:
 
 ```bash
 chmod +x ad-principals
@@ -53,7 +53,7 @@ echo "CHECKSUM_PLACEHOLDER  ad-principals" | sha256sum -c -
 ### Option 2: From Source
 
 ```bash
-git clone https://github.com/bishwabikash/ad-principals.git
+git clone https://github.com/nobody-Justheader//ad-principals.git
 cd ad-principals
 pip3 install -r requirements.txt
 python3 ad-principals.py -i names.txt
